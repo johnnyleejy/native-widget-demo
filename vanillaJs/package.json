@@ -5,7 +5,7 @@
   "main": "index.umd.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "python3 -m http.server 3000"
+    "start": "python3 -m http.server 3006"
   },
   "keywords": [],
   "author": "",

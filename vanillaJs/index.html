@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <!-- react 18-->
+    <script
+      crossorigin
+      src="https://unpkg.com/react@18/umd/react.production.min.js"
+    ></script>
+    <script
+      crossorigin
+      src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"
+    ></script>
+    <script defer src="https://static.native.org/widget/1.0.6.js"></script>
+    <title>React App</title>
+  </head>
+  <body>
+    <div id="ntv-swap-widget"></div>
+  </body>
+  <script defer>
+    document.addEventListener("DOMContentLoaded", function () {
+      const root = ReactDOM.createRoot(
+        document.getElementById("ntv-swap-widget")
+      );
+      root.render(
+        React.createElement(NativeWidget.default, {
+          apiKey: "8Y0ZN9X6VF7VW0KMF3P4",
+        })
+      );
+    });
+  </script>
+</html>
