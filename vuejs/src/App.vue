@@ -1,6 +1,6 @@
 <template>
   <main>
-    <NativeSwapWidget apiKey="JWL73SF2K899AMPFRHZV" />
+    <NativeSwapWidget apiKey="8Y0ZN9X6VF7VW0KMF3P4" />
   </main>
 </template>
 

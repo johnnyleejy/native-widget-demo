@@ -13,7 +13,7 @@
     "format": "prettier --write src/"
   },
   "dependencies": {
-    "@native_org/widgets": "^1.0.2",
+    "@native_org/widgets": "^1.0.6",
     "veaury": "^2.3.12",
     "vue": "^3.3.4",
     "ws": "^8.13.0"
